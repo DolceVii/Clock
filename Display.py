@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-# code modified, tweaked and tailored from code by bertwert 
-# on RPi forum thread topic 91796
 import RPi.GPIO as GPIO
 import time
 import datetime
