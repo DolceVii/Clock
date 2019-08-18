@@ -16,7 +16,7 @@ GPIO.setwarnings(False)
  
 # GPIO ports for the 7seg pins
 segments =  (11,4,23,8,7,10,18,25,12)
-# 7seg_segment_pins (11,7,4,2,1,10,5,3) +  100R inline
+# 7seg segment pins (14,16,13,3,5,11,15,12,17) +  100R inline
  
 for segment in segments:
     GPIO.setup(segment, GPIO.OUT)
@@ -24,7 +24,7 @@ for segment in segments:
  
 # GPIO ports for the digit 0-3 pins 
 digits = (22,27,17,24)
-# 7seg_digit_pins (12,9,8,6) digits 0-3 respectively
+# 7seg digit pins (1,2,6,8) digits 0-3 respectively
  
 for digit in digits:
     GPIO.setup(digit, GPIO.OUT)
